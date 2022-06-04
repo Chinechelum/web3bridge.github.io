@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <aside>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Explore</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1 style="color: white;">Breakdown per Member</h1>
+       <!-- <p id = "pals" onload="showRiders();"></p> -->
+
+       <div id="view">
+        <table style="color: white;">
+            
+     <thead>
+       <tr class="ui-bar-d">
+        <th data-priority="3">ID</th>
+         <th data-priority="2">Name</th>
+         <th data-priority="1">Tier</th>
+       </tr>
+     </thead>
+     <tbody id="todos">
+     </tbody>
+    </table>
+    </div>
+    <button class="clickme" onclick="readAll();">click to view</button>
+
+    <h1 style="color: white;">Total</h1>
+    <p></p>
+
+    </main>
+
+
+</body>
+<script src="main_script.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<!-- <script>
+  setTimeout(() => {
+    showRiders();
+  }, 500)
+</script> -->
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main_script.js"></script>
+    <title>Document</title>       
+</head>
+
+<body>
+    
+    <aside>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Explore</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <section class="firstSection">
+            <div class="firstDiv">
+                <h1>About</h1>
+                <p>Save Money together!</p>
+            </div>
+
+            <div class="secondDiv">
+                <h1>Mission and Vision</h1>
+                <p>Get us out of poverty</p>
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <div>
+                <!-- <form> -->
+                    <h2>Join</h2>
+                    <input type="text" id="name" placeholder="Enter Name">
+                    <br>
+                    <select class = "form-select" name = "tier" placeholder="Select tier" id="tier">
+                        <option value = "" disabled selected hidden>Choose Tier</option>
+                        <option value = "10k">N10,000 (7% interest per week = N700)</option>
+                        <option value = "20k">N20,000 (12% interest per week = N2400)</option>
+                        <option value = "30k">N30,000 (25% interest per week = N7500)</option>
+                    </select>
+                    <br>
+                    <button type="submit" onclick="saveAccount();">join</button>
+                <!-- </form> -->
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+
+    height: 100vh;
+    background-image: url(images/bikers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+aside {
+    background-color: rgb(135, 135, 135);
+    position: fixed;
+    display: inline-block;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px;
+    width: 10%;
+    /* justify-content: center;
+    justify-items: center;
+    justify-self: center; */
+    /* text-justify: center;
+    text-align: center; */
+    /* justify-content: space-between; */
+    /* align-content: center; */
+}
+
+aside ul{
+    margin-top: 40vh;
+}
+aside li{
+    text-decoration: none;
+    justify-self: center;
+    list-style: none;
+    color: black;
+    padding-top: 30px;
+    font-size: 1em;
+}
+
+aside a:hover{
+    background-color: black;
+    color: gray;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+main {
+    position: absolute;
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-around;
+    height: 100vh;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
+    margin-top: 30vh;
+    height: auto;
+
+}
+
+.firstSection {
+    width: 40%;
+    align-content: center;
+}
+
+.secondSection {
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    /* float: right; could also be used in some other sitchs*/
+}
+
+.firstDiv {
+    padding: 10px;
+    background-color: rgb(135, 135, 135);
+    margin: 5px;
+}
+
+.secondDiv {
+    padding: 10px;
+    background-color: rgb(135, 135, 135);
+    margin: 5px;
+}
+
